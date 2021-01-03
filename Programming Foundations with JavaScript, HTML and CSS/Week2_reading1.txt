@@ -1,0 +1,28 @@
+// write your code here
+
+function adding(x,y){
+    var ans = x+ y;
+    return ans;
+}
+var a = "a" , b="b";
+var ab = adding(a, b);
+print(ab);
+var ba = adding(b,a)
+print(ba);
+
+
+function adding_n(x,y,z){
+    var ans1 = x+y+z;
+    return ans1;
+}
+var x = adding_n(1,2,3);
+print(x);
+
+
+function add(x,y){
+    var ans2 = x+y;
+    return ans2;
+}
+var n = add(2,3);
+print(n);
+

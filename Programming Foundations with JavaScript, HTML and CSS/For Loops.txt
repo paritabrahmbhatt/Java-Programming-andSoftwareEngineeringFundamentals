@@ -1,0 +1,18 @@
+// write your code here
+
+var img = new SimpleImage(200,200);
+print(img);
+
+for(var pix1 of img.values()){
+    pix1.setRed(255);
+    pix1.setGreen(255);
+    pix1.setBlue(0);
+}
+print(img);
+
+for(var pix1 of img.values()){
+    pix1.setRed(255);
+    pix1.setGreen(0);
+    pix1.setBlue(255);
+}
+print(img);
